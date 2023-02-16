@@ -26,3 +26,4 @@ Here, are some of the C programs created by me. And updated regularly.
 | 16        | Write a program to display your name, roll no and branch line wise                                             | [name_roll_branch.c](/data/name_roll_branch.c)                                 |
 | 17        | Write a program to accept three subject marks and display their average                                        | [avg.c](/data/avg.c)                                                           |
 | 18        | ![image](/images/pattern1.png)                                                                                 | [pattern1.c](/data/pattern1.c)                                                 |
+| 19        | Write a program to find maximum and minimum among 4 numbers                                                    | [max_min_4.c](/data/max_min_4.c)                                               |
