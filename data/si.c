@@ -1,7 +1,8 @@
 // WAP to calculate simple interest
 #include <stdio.h>
 int main(){
-    int p, r, t, i;
+    int p, t;
+    float i, r;
     printf("Enter principal, rate and time : ");
     scanf("%d %d %d", &p, &r, &t);
     i = (p * r * t) / 100;
