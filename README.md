@@ -4,8 +4,6 @@ C is a general-purpose computer programming language.
 It was created in the 1970s by Dennis Ritchie, and remains very widely used and influential.
 Here, are some of the C programs created by me. And updated regularly.
 
-### Open a new issue, if you want program for a question not listed here.
-
 ## Programs
 
 | **SL NO** | **Program**                                                                                                    | **File**                                                                       |
@@ -29,3 +27,11 @@ Here, are some of the C programs created by me. And updated regularly.
 | 17        | Write a program to accept three subject marks and display their average                                        | [avg.c](/data/avg.c)                                                           |
 | 18        | ![image](/images/pattern1.png)                                                                                 | [pattern1.c](/data/pattern1.c)                                                 |
 | 19        | Write a program to find maximum and minimum among 4 numbers                                                    | [max_min_4.c](/data/max_min_4.c)                                               |
+| 20        | Write a program to calculate area of triangle when all three sides are given                                   | [area_triangle_3.c](/data/area_triangle_4.c)                                   |
+| 21        | Write a program to find perimeter of a circle                                                                  | [perimeter_circle.c](/data/perimeter_circle.c)                                 |
+| 22        | Write a program to subtract a number from another number and display its results                               | [subtract.c](/data/subtract.c)                                                 |
+| 23        | Write a program to display the size and address of int, float, and char variable                               | [address.c](/data/address.c)                                                   |
+| 24        | Evaluate: p = ++a + a++ + --a                                                                                  | [unary1.c](/data/unary_1.c)                                                    |
+| 25        | Write a program to find the discriminant of the quadratic equation                                             | [quadratic.c](/data/quadratic.c)                                               |
+| 26        | If p(x) = 2x<sup>2</sup> - 5x + 1, then find p(2) and p(3)                                                     | [start_func.c](/data/start_func.c)                                             |
+| 27        | Write a program to input 3 digit numbers and display the individual digits                                     | [digits.c](/data/digits.c)                                                     |
