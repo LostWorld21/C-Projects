@@ -1,14 +1,14 @@
 /* WAP to create the following pattern
- *
- * *
- * * *
- * * * *
+     *
+    * *
+   * * *
+  * * * *
  * * * * *
  * * * * *
- * * * *
- * * *
- * *
- *
+  * * * *
+   * * *
+    * *
+     *
  */
 #include <stdio.h>
 int main()
