@@ -5,7 +5,7 @@ int main(){
     float r,interest, amount,p, t;
     printf("Enter principal, rate and time : ");
     scanf("%f %f %f", &p, &r, &t);
-    amount = p * pow((1 + (r / t)), t);
+    amount = p * pow((1 + r), t);
     interest = amount - p;
     printf("Interest is %f",interest);
     return 0;
