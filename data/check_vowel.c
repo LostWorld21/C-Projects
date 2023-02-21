@@ -1,4 +1,4 @@
-//WAP to read a character from the user and test wheather it is a vowel or consonentor not an alphabet.
+//WAP to read a character from the user and test wheather it is a vowel or consonent or not an alphabet.
 
 #include <stdio.h>
 int main()
