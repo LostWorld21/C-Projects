@@ -52,3 +52,4 @@ Here, are some of the C programs created by me. And updated regularly.
 | 41       | WAP to determine wheather a year entered through the keyboard is a leap year or not.                | [leap_year.c](/data/leap_year.c)                                                                                 |
 | 42       | WAP to find out the largest among three numbers using ternary operator                | [3num_ternary.c](/data/3num_ternary.c)                                                                                 |
 | 43       | WAP to check whether a number is even or odd using ternary operator.                | [even_odd_ternary.c](/data/even_odd_ternary.c)                                                                                 |
+| 44       | WAP to display the message “KIIT Silver Jubilee” if the entered year is 25 otherwise display “Wrong input”.               | [kiitsilverjubilee.c](/data/kiitsilverjubilee.c)
