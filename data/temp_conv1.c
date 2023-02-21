@@ -1,10 +1,11 @@
-// Write a program to find centigrade for a given fahrenheit temperature
+//WAP to convert temperature from centigrade to Fahrenheit scale.
 #include <stdio.h>
-int main(){
-    float c, f;
-    printf("Enter temperature in fahrenheit : ");
-    scanf("%f", &f);
-    c = (f - 32) * (5 / 9);
-    printf("The temperature in celcius is : %f", c);
-    return 0;
+int main()
+{
+	float t_cent, t_farh;
+	printf("Enter the temperature in Centigrade: ");
+    scanf("%f",&t_cent);
+	t_farh = (((9.0/5.0)* t_cent)+32);
+	printf("\n%f centigrade = %f Fahrenheit",t_cent, t_farh);
+	return 0;
 }
