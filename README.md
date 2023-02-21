@@ -49,4 +49,4 @@ Here, are some of the C programs created by me. And updated regularly.
 | 39        | WAP to determine the roots of a quadratic equation ax^2+bx+c=0 using if-else statement                                                                              | [Roots_of_quad_eqn.c](/data/Roots_of_quad_eqn.c)                                                                     |
 | 40        | WAP to read an alphabet from the user and convert it into uppercase if the entered alphabet is in lowercase, 
               otherwise display an appropriate message. 
-             | [Roots_of_quad_eqn.c](/data/Roots_of_quad_eqn.c)                                                                     |
+             | [Lower_upper.c](/data/Lower_upper.c)                                                                                 |
