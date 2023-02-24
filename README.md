@@ -58,3 +58,4 @@ Here, are some of the C programs created by us. And updated regularly.
 | 47       | WAP to input any two integers, and provide a menu to the user to select any of the options as add, subtract, multiply, divide and display the result accordingly              | [operator_option.c](/data/operator_option.c)
 | 48       | WAP to display the grade system of KIIT University based on total marks secured by a student in a semester. Use switch-case statement. Calculate the grade of the student according to the percentage of the mark.              | [grade_switchcase.c](/data/grade_switchcase.c)
 | 49       | WAP to display the grade system of KIIT University based on total marks secured by a student in a semester. Use else...if ladder statement.              | [grade_if_else.c](/data/grade_if_else.c)
+| 50       | Write a program to display your own name by giving user inputs.               | [name_user_input.c](/data/name_user_input.c)
