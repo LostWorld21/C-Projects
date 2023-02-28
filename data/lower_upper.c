@@ -1,20 +1,15 @@
-/*WAP to read an alphabet from the user and convert it into uppercase if the entered alphabet is in 
-lowercase, otherwise display an appropriate message.*/
-
+// WAP to read an alphabet from the user and convert it into uppercase if the entered alphabet is in lowercase otherwise display an appropriate message
 #include <stdio.h>
 int main()
 {
-	char a;
-	printf("Enter the alphabet: ");
-	scanf("%c", &a);
-	
-	if (a >= 97 && a <= 122) {
-		a= a-32;
-		printf("The entered character is in lowercase \nAfter converting the character to uppercase is %c", a);
-	}
-	else if(a >=65 && a <= 90)
-		printf("The entered character is already in Uppercase : %c",a);
-	else
-		printf("Invalid character");
-	return 0;
+    char ch;
+    printf("Enter an alphabet : ");
+    scanf("%c", &ch);
+    if ((int)ch <= (int)'z' && (int)ch >= (int)'a')
+        printf("The alphabet in uppercase is : %c", ((int)ch - 32));
+    else if ((int)ch <= (int)'Z' && (int)ch >= (int)'A')
+        printf("The alphabet is already in uppercase");
+    else
+        printf("It isn't an alphabet");
+    return 0;
 }

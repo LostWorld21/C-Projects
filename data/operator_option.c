@@ -1,38 +1,37 @@
-/*WAP to input any two integers, and provide a menu to the user to select any of the options
-as add, subtract, multiply, divide and display the result accordingly.*/
-
+// WAP to input any two integers, and provide a menu to the user to select any of the options as add, subtract, multiply, divide and display the result accordingly
 #include <stdio.h>
 int main()
 {
-	int x, y, r, op;
-	printf("Enter the 1st number= ");
-	scanf("%d", &x);
-	printf("Enter the 2nd number= ");
-	scanf("%d", &y);
-	printf("Option: 1. Add  2. Substract  3. Multiply  4. Divide");
-	printf("\nEnter your option= ");
-	scanf("%d", &op);
-	
-	switch(op)
-	{
-		case 1:
-		r=x+y;
-		printf("The result is= %d", r);
-		    break;
-		case 2:
-		r=x-y;
-		printf("The result is= %d", r);
-		    break;
-		case 3:
-		r=x*y;
-		printf("The result is= %d", r);
-			break;
-		case 4:
-		r=x/y;
-		printf("The result is= %d", r);
-			break;
-
-	default:
-		printf("Invalid Input");
-	}
+    int a, b, ch, f = 0, ans;
+    printf("Enter two numbers : ");
+    scanf("%d %d", &a, &b);
+    printf("1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Remainder");
+    printf("Enter your choice (1 ~ 5) ");
+    scanf("%d", &ch);
+    switch (ch)
+    {
+    case 1:
+        ans = a + b;
+        break;
+    case 2:
+        ans = a - b;
+        break;
+    case 3:
+        ans = a * b;
+        break;
+    case 4:
+        ans = a / b;
+        break;
+    case 5:
+        ans = a % b;
+        break;
+    default:
+        f = -1;
+        break;
+    }
+    if (f == -1)
+        printf("Invalid Choice");
+    else
+        printf("The result is %d", ans);
+    return 0;
 }

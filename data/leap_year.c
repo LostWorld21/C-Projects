@@ -1,23 +1,17 @@
-//WAP to determine wheather a year entered through the keyboard is a leap year or not.
-
+// WAP to determine wheather a year entered by the user is a leap year or not
 #include <stdio.h>
-int main ()
+int main()
 {
-	int year;
-	printf("Enter the year: ");
-	scanf("%d", &year);
-	
-	if (year % 400 == 0)
-	printf("%d is a leap year", year);
-	
-	else if (year % 100 == 0)
-		printf("%d is not a leap year", year);
-    
-	else if (year % 4 == 0)
-		printf("%d is a leap year", year);
-
-	else
-		printf("%d is not a leap year", year);	
-		
-		return 0;
+    int y;
+    printf("Enter a year : ");
+    scanf("%d", &y);
+    if (y % 400 == 0)
+        printf("It is a leap year");
+    else if (y % 100 == 0)
+        printf("It is not a leap year");
+    else if (y % 4 == 0)
+        printf("It is a leap year");
+    else
+        printf("It is a leap year");
+    return 0;
 }
